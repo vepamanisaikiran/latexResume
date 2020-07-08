@@ -1,0 +1,111 @@
+ public static int characterCount(String inputString) 
+    { 
+        
+	
+		if((inputString != null) && (!inputString.equals("")) && (!inputString.matches("a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u+v+w+x+y+z+"))){
+		return 0;
+		}
+        // Creating a HashMap containing char 
+        // as a key and occurrences as  a value 
+        HashMap<Character, Integer> charCountMap 
+            = new HashMap<Character, Integer>(); 
+  
+        char[] strArray = inputString.toCharArray(); 
+  
+        for (char c : strArray) { 
+            if (charCountMap.containsKey(c)) { 
+                charCountMap.put(c, charCountMap.get(c) + 1); 
+            } 
+            else { 
+                charCountMap.put(c, 1); 
+            } 
+        } 
+		int sum = 1;
+// 		 for (Map.Entry entry : charCountMap.entrySet()) { 
+//             System.out.println(entry.getKey() + " " + entry.getValue()); 
+//         } 
+        // Printing the charCountMap 
+        for (int entry : charCountMap.values()) { 
+            sum = sum * entry ; 
+        } 
+        return sum;
+    } 
+	
+	
+
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.*;
+import java.io.* ;
+public class Main
+{
+    
+   public static void primeFactors(int n) 
+    { 
+        // Print the number of 2s that divide n 
+        HashMap<Integer, Integer> charCountMap 
+            = new HashMap<Integer, Integer>(); 
+        while (n%2==0) 
+        { 
+            System.out.println(2 + " "); 
+            if (charCountMap.containsKey(2)) { 
+                 charCountMap.put(2, charCountMap.get(2) + 1); 
+            } 
+            else { 
+                charCountMap.put(2, 1); 
+            } 
+            n /= 2; 
+        } 
+  
+
+        for (int i = 3; i <= Math.sqrt(n); i+= 2) 
+        { 
+            while (n%i == 0) 
+            { 
+                if (charCountMap.containsKey(i)) { 
+ 
+                charCountMap.put(i, charCountMap.get(i) + 1); 
+            } 
+            else { 
+                charCountMap.put(i, 1); 
+            } 
+                System.out.println(i); 
+                n /= i; 
+            } 
+        } 
+  
+        // This condition is to handle the case whien 
+        // n is a prime number greater than 2 
+        if (n > 2) {
+            if (charCountMap.containsKey(n)) { 
+ 
+                charCountMap.put(n, charCountMap.get(n) + 1); 
+            } 
+            else { 
+                charCountMap.put(n, 1); 
+            } 
+        }   
+         for (Map.Entry entry : charCountMap.entrySet()) { 
+            System.out.println(entry.getKey() + " " + entry.getValue()); 
+        } 
+        int sum = 0;  
+        for (int entry : charCountMap.values()) { 
+            sum = sum + entry ; 
+        }    
+        System.out.println(sum);
+        
+    
+    } 
+  
+    public static void main (String[] args) 
+    { 
+        int n = 315; 
+        primeFactors(n); 
+    } 
+}
+	
