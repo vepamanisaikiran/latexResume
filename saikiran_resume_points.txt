@@ -1,0 +1,132 @@
+# Professional Resume: Saikiran (Achievements & Projects)
+
+---
+
+## Key Achievements & Awards
+
+*   **Winner, Bosch AWS Hackathon 2025**: Recognized for "Project IQ," an AI-powered training & knowledge management system, demonstrating high innovation in automated requirements analysis.
+*   **Winner, Build for Bharat 2025**: Secured victory in the AppForBharath hackathon for developing impactful solutions for India.
+*   **Patent Co-Author**: "A control unit for detunneling of data from an ethernet frame using application specific unique ids" (Filed: July 31, 2025 | Patent No: 202541072960).
+
+## Generative AI & LLM Specialist
+
+### **1. Project IQ - AI-Powered Training & Knowledge Management System**
+*   **Highlighted Achievements:**
+    *   Recognized as a Winner/Finalist at the Bosch AWS Hackathon 2025 for demonstrating high innovation in AI-driven requirements analysis.
+    *   Achieved a 90% accuracy rate in extracting technical competencies from complex Software Requirements Specification (SRS) documents.
+    *   Estimated a business value of €25,000+ in annual cost savings by automating the training planning process.
+    *   Reduced manual training planning time by 80%, transforming a multi-hour task into a 3-second automated process.
+*   **Skills:** Multi-modal AI, Document Engineering, Cloud-native API Design, Presentation.
+*   **Technologies:** Python, FastAPI, OpenAI GPT-4o, AWS Lambda/S3, OCR, JWT, Tailwind CSS.
+*   **Complex Problem Solving:** Engineered a semantic mapping engine for a 500+ skill taxonomy, solving the challenge of inconsistent technical terminology across global teams.
+
+### **2. BRICK - Bosch Research for Integrated Cognitive Knowledge**
+*   **Highlighted Achievements:**
+    *   Architected an advanced document analysis platform featuring PathRAG, achieving high-precision retrieval from unstructured PDFs.
+    *   Developed a high-performance layout recognition engine using MinerU that identifies formulas, tables, and images with structural preservation.
+    *   Implemented a real-time annotation overlay for browser-based PDF viewing, allowing immediate visual verification of AI detections.
+    *   Optimized a background processing queue capable of handling concurrent multi-format (PDF, DOCX) document analysis without blocking the UI.
+*   **Skills:** Vector Databases, Document Layout Analysis, Background Processing, RAG Architecture.
+*   **Technologies:** PathRAG, FAISS, MinerU, HF Models, Docker, FastAPI, Python.
+*   **Complex Problem Solving:** Solved the "lost in context" problem in large technical manuals by implementing path-based retrieval, ensuring the AI maintains document hierarchy during chat sessions.
+
+### **3. HireStream - AI-Powered Talent-Skill Matching Platform**
+*   **Highlighted Achievements:**
+    *   End-to-end architected a recruitment OS that matches internal associate skills against Job Descriptions using zero-shot learning.
+    *   Developed Role-Based Dashboards for Talent Managers, Delivery Managers, and Associates, securing access to sensitive performance data.
+    *   Automated the extraction of skill levels (L0-L5) from legacy resumes, achieving an 80% reduction in manual screening effort.
+    *   Implemented an Intelligent Development Roadmap engine that provides personalized training recommendations based on detected skill gaps.
+*   **Skills:** Prompt Engineering, RBAC, Full Stack Development, Database Modeling.
+*   **Technologies:** Next.js 15, React 19, FastAPI, SQLAlchemy, SQLite/PostgreSQL, Tailwind CSS 4.
+*   **Complex Problem Solving:** Engineered a semantic matching logic that handles "hidden skills" (skills implied by experience but not explicitly listed), significantly improving match quality over keyword search.
+
+### **4. LLM Fine-Tuning & Model Optimization (SDX Fine-Tune)**
+*   **Highlighted Achievements:**
+    *   Successfully performed Parameter-Efficient Fine-Tuning (PEFT) on Qwen models using specialized automotive codebases (CPP/VSS).
+    *   Implemented QLoRA and LoRA techniques to fine-tune 7B+ parameter models on limited hardware with minimal performance degradation.
+    *   Integrated Optuna for automated hyper-parameter tuning, achieving optimal training efficiency across multiple model trials.
+    *   Curated and processed multi-million token datasets (jsonl) for specialized domain alignment in automotive software engineering.
+*   **Skills:** LLM Fine-Tuning (SFT), PEFT, Quantization, Data Engineering for NLP.
+*   **Technologies:** PyTorch, Hugging Face, Optuna, NVIDIA CUDA, Python, Qwen, Transformers.
+*   **Complex Problem Solving:** Solved resource-constrained training issues by implementing 4-bit quantization and low-rank adapters, enabling local model specialization for proprietary software standards.
+
+### **5. SDX Assistant - Voice-Enabled SDV Developer Tool**
+*   **Highlighted Achievements:**
+    *   Revolutionized the SDV developer workflow by building a voice-interactive assistant that generates code through natural language.
+    *   Integrated Hands-free STT/TTS with custom wake-word support, enabling code generation while interacting with in-vehicle hardware.
+    *   Developed a multi-turn conversation manager that remembers context and refines code logic across different user prompts.
+    *   Achieved rapid adoption by providing an interactive audio visualization and real-time feedback loop during the generation process.
+*   **Skills:** Real-time Web Communication, Speech Recognition (STT/TTS), AI Code Generation, SDV Architecture.
+*   **Technologies:** OpenAI, Socket.IO, Next.js 14, FastAPI, Python, Web Audio API.
+*   **Complex Problem Solving:** Designed a "Check-and-Confirm" state machine that extracts VSS datapoints and provides pseudocode for user validation before generating the final production-ready code.
+
+---
+
+## Automotive Calibration & Diagnostic Tools
+
+### **5. SDX-A2L Signal Monitor - Next-Gen Automotive Diagnostics**
+*   **Highlighted Achievements:**
+    *   Built a specialized monitoring tool capable of streaming and parsing huge A2L files (100MB+) using memory-mapped files.
+    *   Developed a Two-Stage AI Search architecture that is 20x faster than naive AI approaches for signal discovery.
+    *   Implemented Real-time memory address monitoring for ECUs via WebSocket-based live telemetry updates.
+    *   Engineered a C-Code generation engine that automatically translates selected monitored signals into embedded-ready structures.
+*   **Skills:** Large File Streaming, Automotive Protocol Analysis, High-Performance UI, Signal Processing.
+*   **Technologies:** Python (Flask), React 18, Google Gemini API, WebSocket (Socket.IO), TailwindCSS, Fuse.js.
+*   **Complex Problem Solving:** Solved the "needle in a haystack" problem of finding signals in ECUs by understanding automotive terminology (ESP, ABS, etc.) via LLM-based semantic refinement.
+
+### **6. CAN-to-VSS Protocol Mapper**
+*   **Highlighted Achievements:**
+    *   Developed a critical mapping utility for translating low-level CAN bus (DBC) data into cloud-native VSS standards.
+    *   Created a high-fidelity mapping for the MG Comet EV, enabling seamless cloud integration of its vehicle-specific signals.
+    *   Built a GUI-based mapper that allows engineers to visually define relationships between raw hex data and meaningful vehicle signals.
+    *   Automated the generation of JSON-based mapping files, reducing the manual protocol alignment time for new vehicle models.
+*   **Skills:** Protocol Engineering, DBC File Parsing, Data Transformation, GUI Development.
+*   **Technologies:** Python, JSON Schema, Custom GUI (Tkinter), Automotive DBC, VSS Specification.
+*   **Complex Problem Solving:** Solved complex signal scaling, bitmasking, and offset transformations between proprietary vehicle bus formats and standard cloud-native VSS profiles.
+
+---
+
+## High-Performance Automotive Middleware
+
+### **7. Kuksa Databroker C++ - Real-Time SDV Data Mesh**
+*   **Highlighted Achievements:**
+    *   Optimized the KUKSA.val databroker core in C++ and Rust for high-throughput, low-latency signal orchestration.
+    *   Implemented a secure gRPC and Protobuf communication layer for cross-module data sharing in Software Defined Vehicles.
+    *   Engineered a JWT-based authorization system to restrict access to sensitive vehicle controls (e.g., HVAC, Windows) at the signal level.
+    *   Reduced signal-to-app latency by optimizing internal data structures and memory management in the Databroker.
+*   **Skills:** Systems Programming, gRPC, Performance Optimization, Real-time Systems.
+*   **Technologies:** C++, Rust, gRPC, Protobuf, JWT, Docker, Linux.
+*   **Complex Problem Solving:** Optimized real-time data throughput for high-frequency vehicle signals, ensuring no data loss during burst traffic between independent vehicle microservices.
+
+### **8. ASM (Agent Secure MQTT) - Secure Vehicle Telemetry Agent**
+*   **Highlighted Achievements:**
+    *   Implemented an enterprise-grade device agent for secure Vehicle-to-Cloud communication using Mutual TLS (mTLS).
+    *   Successfully integrated DigiCert certificate management for automated device identity validation at the edge.
+    *   Developed a high-reliability telemetry pipeline that persists data locally during connectivity outages and synchronizes on reconnect.
+    *   Hardened the agent against injection attacks by implementing strict VSS-based data sanitization protocols.
+*   **Skills:** Edge Computing, Cyber Security, Telemetry, PKI Infrastructure.
+*   **Technologies:** MQTTs, TLS/SSL Certificates, VSS, Docker, Bash/Shell.
+*   **Complex Problem Solving:** Engineered a secure telemetry pipeline that maintains strictly ordered signal delivery even during intermittent 4G/5G connectivity in mobile vehicle environments.
+
+---
+
+## Software Defined Vehicle (SDV) & Enterprise Cloud
+
+### **9. XSPACE Cloud SDV Platform - Multi-Tenant SaaS Infrastructure**
+*   **Highlighted Achievements:**
+    *   Architected a Serverless Multi-Tenant SaaS foundation using AWS CDK, supporting the entire Bosch XSPACE ecosystem.
+    *   Automated the provisioning of isolated tenant stacks, reducing the onboarding time for new vehicle projects by 90%.
+    *   Built a centralized Tenant Management Service that controls access, billing, and resource allocation across hundreds of AWS accounts.
+    *   Optimized cloud infrastructure costs through auto-scaling Lambda functions and intelligent S3 storage tiering.
+*   **Skills:** Infrastructure as Code (IaC), Multi-tenancy, Serverless Architecture, DevOps.
+*   **Technologies:** AWS CDK, Lambda, TypeScript, Node.js, Shell/Bash, S3, Cognito.
+*   **Complex Problem Solving:** Solved the challenge of "noisy neighbors" in multi-tenant environments by implementing strict IAM-based resource isolation at the CDK stack level.
+
+### **10. SCEV Enterprise Microservices & EV Trip Planning**
+*   **Highlighted Achievements:**
+    *   Developed high-compliance backend microservices for the Smart Connected Electric Vehicle (SCEV) platform using Java 17/Spring Boot.
+    *   Architected a high-precision EV Trip Planning engine that accounts for battery SoC, elevation, and charging station availability.
+    *   Implemented industrial-grade security compliance by integrating SonarQube and CycloneDX for SBOM and vulnerability management.
+    *   Containerized and orchestrated global services using Docker and Kubernetes (Helm), ensuring 99.9% uptime for vehicle monitoring services.
+*   **Skills:** Java Enterprise, Microservices, CI/CD, Cybersecurity Compliance, Kubernetes.
+*   **Technologies:** Java 17, Spring Boot, Gradle, Kubernetes (Helm), SonarQube, CycloneDX, Artifactory.

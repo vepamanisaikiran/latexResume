@@ -1,0 +1,192 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Work Experience}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+
+
+ \cventry
+    {Lead Engineer - Gen AI } % Job title
+    {Bosch Global Software Technologies} % Organization
+    {Bangalore, India} % Location
+    {Mar. 2023 - Current} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        % --- Achievements & Recognition ---
+        \item {Won Bosch AWS Hackathon 2025 for "Project IQ," an AI-powered training \& knowledge management system with 90\% accuracy in extracting competencies from SRS documents.}
+        \item {Won AppsForBharat 2025 hackathon for developing impactful solutions for India.}
+        \item {Co-authored patent on detunneling data from ethernet frames using application-specific unique IDs (Patent No: 202541072960).}
+        \item {Represented Bosch at Bharat Mobility Expo 2025, showcasing a Vehicle Assistant AI that generates SDV apps deployable on HMI and HPCs.}
+        % --- Leadership & Team Management ---
+        \item {Leading a cross-functional team of 8+ engineers across Gen AI, automotive middleware, and cloud platform initiatives at Bosch.}
+        \item {Driving technical architecture decisions and conducting code reviews to ensure quality, scalability, and adherence to best practices.}
+        \item {Mentoring junior developers on Gen AI, LLM fine-tuning, and cloud-native development, accelerating team ramp-up time.}
+        \item {Coordinating with product owners, stakeholders, and global teams to translate business requirements into technical roadmaps and sprint deliverables.}
+        \item {Establishing engineering standards for CI/CD pipelines, containerized deployments, and documentation across multiple SDV projects.}
+        % --- HARA AI / FuSA AI ---
+        \item {Built HARA AI, a safety-relevant AI system for Hazard Analysis and Risk Assessment (HARA) that automates identification of safety goals and ASIL classifications per ISO 26262.}
+        \item {Developed FuSA AI engine that analyzes functional requirements to generate safety-critical decision recommendations, reducing manual safety assessment effort.}
+        \item {Engineered AI-driven analysis pipeline that extracts hazardous events from system-level functional requirements and maps them to appropriate safety mechanisms.}
+        % --- Project IQ ---
+        \item {Achieved 90\% accuracy in extracting technical competencies from complex SRS documents, estimating \texteuro{}25,000+ in annual cost savings.}
+        \item {Reduced manual training planning time by 80\%, transforming a multi-hour task into a 3-second automated process.}
+        \item {Engineered a semantic mapping engine for a 500+ skill taxonomy, solving inconsistent technical terminology across global teams.}
+        % --- BRICK ---
+        \item {Architected BRICK, an advanced document analysis platform featuring PathRAG and MinerU for high-precision retrieval from unstructured PDFs with structural preservation.}
+        \item {Developed a high-performance layout recognition engine using MinerU that identifies formulas, tables, and images with structural preservation.}
+        \item {Implemented real-time annotation overlay for browser-based PDF viewing, enabling immediate visual verification of AI detections.}
+        \item {Optimized a background processing queue for concurrent multi-format (PDF, DOCX) document analysis without blocking the UI.}
+        % --- HireStream ---
+        \item {End-to-end architected HireStream, a recruitment OS matching associate skills against JDs using zero-shot learning, reducing manual screening by 80\%.}
+        \item {Developed Role-Based Dashboards for Talent Managers, Delivery Managers, and Associates with secure access to sensitive performance data.}
+        \item {Automated extraction of skill levels (L0-L5) from legacy resumes and implemented an Intelligent Development Roadmap engine for personalized training.}
+        \item {Engineered semantic matching logic that handles "hidden skills" implied by experience, improving match quality over keyword search.}
+        % --- LLM Fine-Tuning ---
+        \item {Performed Parameter-Efficient Fine-Tuning (PEFT) on Qwen 7B+ models using QLoRA/LoRA with 4-bit quantization on limited hardware.}
+        \item {Integrated Optuna for automated hyper-parameter tuning, achieving optimal training efficiency across multiple model trials.}
+        \item {Curated and processed multi-million token datasets (jsonl) for specialized domain alignment in automotive software engineering.}
+        % --- SDX Assistant ---
+        \item {Developed SDX Assistant, a voice-enabled developer tool with STT/TTS and multi-turn conversation for natural language code generation.}
+        \item {Integrated hands-free STT/TTS with custom wake-word support, enabling code generation while interacting with in-vehicle hardware.}
+        \item {Designed a "Check-and-Confirm" state machine that extracts VSS datapoints and provides pseudocode for validation before final code generation.}
+        % --- SDX-A2L Signal Monitor ---
+        \item {Built SDX-A2L Signal Monitor with Two-Stage AI Search (20x faster) for parsing 100MB+ A2L files and real-time ECU memory monitoring via WebSocket.}
+        \item {Engineered a C-Code generation engine that automatically translates monitored signals into embedded-ready structures.}
+        \item {Solved the "needle in a haystack" problem for ECU signal discovery using LLM-based semantic refinement of automotive terminology.}
+        % --- CAN-to-VSS Mapper ---
+        \item {Developed CAN-to-VSS protocol mapper translating low-level CAN bus (DBC) data into cloud-native VSS standards for MG Comet EV.}
+        \item {Built a GUI-based mapper for engineers to visually define relationships between raw hex data and meaningful vehicle signals.}
+        \item {Automated JSON-based mapping file generation, reducing manual protocol alignment time for new vehicle models.}
+        % --- Kuksa Databroker ---
+        \item {Optimized KUKSA.val databroker in C++/Rust for high-throughput, low-latency signal orchestration with secure gRPC/Protobuf communication.}
+        \item {Engineered JWT-based authorization to restrict access to sensitive vehicle controls (HVAC, Windows) at the signal level.}
+        \item {Reduced signal-to-app latency by optimizing internal data structures and memory management in the Databroker.}
+        % --- ASM Telemetry ---
+        \item {Implemented enterprise-grade secure V2C telemetry agent using Mutual TLS (mTLS) with DigiCert certificate management.}
+        \item {Developed high-reliability telemetry pipeline with local data persistence during connectivity outages and ordered signal delivery on reconnect.}
+        \item {Hardened the agent against injection attacks by implementing strict VSS-based data sanitization protocols.}
+        % --- XSPACE Cloud ---
+        \item {Architected a Serverless Multi-Tenant SaaS platform using AWS CDK, reducing new vehicle project onboarding time by 90\%.}
+        \item {Built centralized Tenant Management Service controlling access, billing, and resource allocation across hundreds of AWS accounts.}
+        \item {Optimized cloud infrastructure costs through auto-scaling Lambda functions and intelligent S3 storage tiering.}
+        % --- SCEV ---
+        \item {Developed high-compliance backend microservices for Smart Connected EV platform using Java 17/Spring Boot with SonarQube/CycloneDX security.}
+        \item {Architected a high-precision EV Trip Planning engine accounting for battery SoC, elevation, and charging station availability.}
+        \item {Containerized and orchestrated global services using Docker and Kubernetes (Helm), ensuring 99.9\% uptime for vehicle monitoring.}
+      \end{cvitems}
+    }
+ \cventry
+    {SDE - II} % Job title
+    {HashedIn by Deloitte} % Organization
+    {Bangalore, India} % Location
+    {Aug. 2021 - Mar. 2023} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Built cloud-native content normalization platform for Thomson Reuters legal domain using AWS serverless architecture.}
+        \item {Developed serverless applications using AWS Lambda, API Gateway, RDS, DynamoDB, AWS OCR, CodePipelines, and CloudFormation.}
+        \item {Developed annotation component in Angular that reduced document content processing time from 7 days to 4 hours.}
+        \item {Architected AWS serverless cloud infrastructure with relational and non-relational database integration.}
+        \item {Collaborated with US legal domain stakeholders for requirement gathering and defining technical user stories.}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Software Engineer} % Job title
+    {Zapcom Solutions} % Organization
+    {Bangalore, India} % Location
+    {Feb. 2020 - July 2021} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Built REST APIs using Python/Django DRF and migrated database from Kinvey to Django models.}
+        \item {Implemented FCM push notifications and Celery-based async task processing in Python.}
+        \item {Created and maintained AWS instances for daily review extractions with NLP scoring using spaCy.}
+        \item {Built Content Management service interface handling 1000+ client devices in WSO2.}
+        \item {Redesigned 70\% of UI controlling user flow architecture, improving user experience.}
+        \item {Wrote automation test scripts in Python using Selenium, reducing manual testing effort by 35\%.}
+        \item {Collaborated on all stages of SDLC, from requirement gathering to production releases.}
+        \item {Translated user requirements into project designs, implementation plans, and design mockups.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Full Stack Intern} % Job title
+    {Zapcom Solutions} % Organization
+    {Bangalore, India} % Location
+    {Jan. 2019 - Jan. 2020} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Redesigned Zapcom portal with responsive landing pages in HTML/CSS, improving navigation and cross-browser compatibility.}
+        \item {Built scene classification model using Places365 dataset for image recognition.}
+        \item {Developed web scraping pipeline in Java (Selenium) and Python (Scrapy) to extract 1000+ reviews from 540+ client hotels.}
+        \item {Integrated Facebook Developer API to automate review extraction for 100+ client hotels.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+%   \cventry
+%     {Software Engineer \& Security Researcher (Compulsory Military Service)} % Job title
+%     {R.O.K Cyber Command, MND} % Organization
+%     {Seoul, S.Korea} % Location
+%     {Aug. 2014 - Apr. 2016} % Date(s)
+%     {
+%       \begin{cvitems} % Description(s) of tasks/responsibilities
+%         \item {Lead engineer on agent-less backtracking system that can discover client device's fingerprint(including public and private IP) independently of the Proxy, VPN and NAT.}
+%         \item {Implemented a distributed web stress test tool with high anonymity.}
+%         \item {Implemented a military cooperation system which is web based real time messenger in Scala on Lift.}
+%       \end{cvitems}
+%     }
+
+%---------------------------------------------------------
+%   \cventry
+%     {Game Developer Intern at Global Internship Program} % Job title
+%     {NEXON} % Organization
+%     {Seoul, S.Korea \& LA, U.S.A} % Location
+%     {Jan. 2013 - Feb. 2013} % Date(s)
+%     {
+%       \begin{cvitems} % Description(s) of tasks/responsibilities
+%         \item {Developed in Cocos2d-x an action puzzle game(Dragon Buster) targeting U.S. market.}
+%         \item {Implemented API server which is communicating with game client and In-App Store, along with two other team members who wrote the game logic and designed game graphics.}
+%         \item {Won the 2nd prize in final evaluation.}
+%       \end{cvitems}
+%     }
+
+%---------------------------------------------------------
+%   \cventry
+%     {Software Engineer} % Job title
+%     {ShitOne Corp.} % Organization
+%     {Seoul, S.Korea} % Location
+%     {Dec. 2011 - Feb. 2012} % Date(s)
+%     {
+%       \begin{cvitems} % Description(s) of tasks/responsibilities
+%         \item {Developed a proxy drive smartphone application which connects proxy driver and customer.}
+%         \item {Implemented overall Android application logic and wrote API server for community service, along with lead engineer who designed bidding protocol on raw socket and implemented API server for bidding.}
+%       \end{cvitems}
+%     }
+
+%---------------------------------------------------------
+%   \cventry
+%     {Freelance Penetration Tester} % Job title
+%     {SAMSUNG Electronics} % Organization
+%     {S.Korea} % Location
+%     {Sep. 2013, Mar. 2011 - Oct. 2011} % Date(s)
+%     {
+%       \begin{cvitems} % Description(s) of tasks/responsibilities
+%         \item {Conducted penetration testing on SAMSUNG KNOX, which is solution for enterprise mobile security.}
+%         \item {Conducted penetration testing on SAMSUNG Smart TV.}
+%       \end{cvitems}
+%       %\begin{cvsubentries}
+%       %  \cvsubentry{}{KNOX(Solution for Enterprise Mobile Security) Penetration Testing}{Sep. 2013}{}
+%       %  \cvsubentry{}{Smart TV Penetration Testing}{Mar. 2011 - Oct. 2011}{}
+%       %\end{cvsubentries}
+%     }
+
+%---------------------------------------------------------
+\end{cventries}
