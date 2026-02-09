@@ -18,3 +18,4 @@
 
 # Generated PDFs (optional - uncomment to track PDFs)
 # *.pdf
+.DS_Store
